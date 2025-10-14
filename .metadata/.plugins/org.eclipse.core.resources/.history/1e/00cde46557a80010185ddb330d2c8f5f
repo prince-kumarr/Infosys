@@ -1,0 +1,25 @@
+package String;
+
+public class removedublicate {
+
+	public static void main(String[] args) {
+		
+		String str = "hello world Prince Kumar";
+        int sl = str.length();
+        
+        String res = "";
+        
+        for(int i = 0; i < sl; i++) {
+            // If the character is not already in the result string, add it.
+            for(int j=0;j<res.length();j++) {
+            	if(res.charAt(j) != str.charAt(i) ) {
+            		res += str.charAt(i);
+            	}
+       		}
+        }
+        
+        System.out.println(res);
+
+	}
+
+}

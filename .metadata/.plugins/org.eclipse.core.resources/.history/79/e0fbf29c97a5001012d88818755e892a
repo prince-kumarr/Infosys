@@ -1,0 +1,8 @@
+package String;
+
+public class tryString {
+	String a = "Hello";
+	String b = "Hello";
+	
+
+}

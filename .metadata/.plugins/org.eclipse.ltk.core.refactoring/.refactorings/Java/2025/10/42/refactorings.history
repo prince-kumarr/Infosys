@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;String.remocedub.java&apos; to &apos;removedub.java&apos;&#x0D;&#x0A;- Original project: &apos;Java&apos;&#x0D;&#x0A;- Original element: &apos;String.remocedub.java&apos;&#x0D;&#x0A;- Renamed element: &apos;String.removedub.java&apos;" description="Rename compilation unit &apos;remocedub.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;String{remocedub.java" name="removedub.java" references="false" stamp="1760377131772" version="1.0"/>
+</session>

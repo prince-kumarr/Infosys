@@ -1,0 +1,13 @@
+package String;
+
+public class tryString {
+	public static void main(String[] args) {
+
+		String a = "Try programiz.pro";
+		String s[] = a.split(" ");
+		
+		
+
+		System.out.println(c);
+	}
+}

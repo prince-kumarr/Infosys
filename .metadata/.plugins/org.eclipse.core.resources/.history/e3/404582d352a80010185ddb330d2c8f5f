@@ -1,0 +1,32 @@
+package String;
+
+public class removedublicate {
+
+	public static void main(String[] args) {
+		
+		String str = "hello world";
+		int sl = str.length();
+		
+		String res = "";
+		int rl = res.length();
+		
+		for(int i = 0; i<sl; i++) {
+			for(int j = i; j<sl; j++) {
+				if(str.charAt(i) == str.charAt(j)) {
+					continue;
+				}else {
+					for(int k = 0; k<rl; k++) {
+						if(str.charAt(i) == res.charAt(k)) {
+							continue;
+						}else {
+							res +=res.charAt(i);
+						}
+					}
+				}
+			}
+		}
+		System.out.println(res);
+
+	}
+
+}

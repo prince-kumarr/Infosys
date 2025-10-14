@@ -1,0 +1,12 @@
+package String;
+
+public class tryString {
+	public static void main(String[] args) {
+
+		String a = "Hello";
+		String b = "Prince";
+		String c = a+b;
+
+		System.out.println(c);
+	}
+}

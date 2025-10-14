@@ -1,0 +1,16 @@
+package String;
+
+import java.util.ArrayList;
+
+public class tryString {
+	public static void main(String[] args) {
+
+		String a = "Hello";
+		String b = "Hello";
+
+		System.out.println(a.compareTo(b));
+		
+		ArrayList a;
+		
+	}
+}

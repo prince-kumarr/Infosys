@@ -1,0 +1,10 @@
+package String;
+
+public class tryString {
+	String a = "Hello";
+	String b = "Hello";
+	
+	System.out.println(a.compareTo(b));
+	
+
+}
