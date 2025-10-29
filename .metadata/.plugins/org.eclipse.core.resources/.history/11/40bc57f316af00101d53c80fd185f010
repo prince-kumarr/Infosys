@@ -1,0 +1,21 @@
+package HashMap;
+
+import java.util.HashMap;
+
+public class basic {
+	public static void main(String[] args) {
+		
+		//syntax 
+		HashMap <String,Integer> mp = new HashMap<>();
+		
+		//adding element
+		mp.put("Prince", 21);
+		mp.put("Prateek", 20);
+		mp.put("Alok", 19);
+		mp.put("Avinash", 22);
+		
+		// getting value of a key from hashmap
+		System.out.println(mp.get("Alok"));
+		
+	}
+}

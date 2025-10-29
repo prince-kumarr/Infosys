@@ -1,0 +1,13 @@
+package HashMap;
+
+import java.util.HashMap;
+
+public class basic {
+	public static void main(String[] args) {
+		HashMap <String,Integer> mp = new HashMap<>();
+		mp.put("Prince", 21);
+		mp.put("Prateek", 20);
+		mp.put("Alok", 19);
+		mp.put("Avinash", 22);
+	}
+}

@@ -1,0 +1,22 @@
+package aaa.VVI.question;
+
+public class ronamToInteger {
+	
+	public static int value(char ch) {
+		switch(ch) {
+		case 'I': return 1;
+		case 'V': return 1;
+		case '': return 1;
+		case 'I': return 1;
+		case 'I': return 1;
+		case 'I': return 1;
+		}
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+
+	}
+
+}

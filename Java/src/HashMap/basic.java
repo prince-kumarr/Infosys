@@ -1,17 +1,32 @@
 package HashMap;
-import java.util.*;
+
+import java.util.HashMap;
 
 public class basic {
 	public static void main(String[] args) {
-		int arr[]= {1,2,3,4};
 		
-		Map<Integer,Integer> fq = new HashMap<>();
-		int i =0;
-		for(int el:arr) {
-			
-			fq.put(el,i);
-			i++;
-		}
-		System.out.println(fq);		
+		//syntax 
+		HashMap <String,Integer> mp = new HashMap<>();
+		
+		//adding element
+		mp.put("Prince", 21);
+		mp.put("Prateek", 20);
+		mp.put("Alok", 19);
+		mp.put("Avinash", 22);
+		
+		/*
+		 * // getting value of a key from hashmap System.out.println(mp.get("Alok"));
+		 * 
+		 * // getting key from hashmap System.out.println(mp.keySet());
+		 * 
+		 * // getting value from hashmap System.out.println(mp.values());
+		 * 
+		 * //getting all entries in the hashmap System.out.println(mp.entrySet());
+		 */
+		
+		for(String key : mp.keySet()) {
+			System.out.println(key + "---> " + mp.get(key) +" ");
+		
+	}
 	}
 }

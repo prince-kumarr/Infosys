@@ -1,0 +1,17 @@
+package aaa.VVI.question;
+
+public class ronamToInteger {
+	
+	public static int value(char ch) {
+		switch(ch) {
+		case 'I'
+		}
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+
+	}
+
+}
